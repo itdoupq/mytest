@@ -1,0 +1,15 @@
+首先进入你的master文件夹下(文件所在的目录), 右键选择Git Bash Here ,打开命令窗口
+
+$ git --help                                      # 帮助命令
+
+
+$ git pull 文件所在github上的库名 master                    # 将远程仓库里面的项目拉下来
+
+$ dir                                                # 查看有哪些文件夹
+
+$ git rm -r --cached target              # 删除target文件夹
+$ git commit -m '删除了target'        # 提交,添加操作说明
+
+$ git push -u 文件所在github上的库名 master               # 将本次更改更新到github项目上去
+
+操作完成
